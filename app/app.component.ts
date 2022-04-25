@@ -93,7 +93,7 @@ export class AppComponent {
     return this.fields;
   }
 
-  ngDistroy() {
+  ngDestroy() {
     this.unsubcribe();
   }
 }
